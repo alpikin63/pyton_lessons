@@ -1,6 +1,8 @@
 from selenium import webdriver
 import time
-
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 class Application:
 
@@ -12,6 +14,8 @@ class Application:
         self.driver.get(url)
 
     def logout(self):
+        #WebDriverWait(self.driver, 10).until(
+            #EC.invisibility_of_element_located((By.CSS_SELECTOR, ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip")))
         self.driver.find_element_by_css_selector(
             ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip").click()
         self.driver.find_element_by_link_text("Выход").click()
@@ -23,7 +27,6 @@ class Application:
         self.driver.find_element_by_id("authPassword").clear()
         self.driver.find_element_by_id("authPassword").send_keys(password)
         self.driver.find_element_by_css_selector(".popup-authorization .btn.btn--colored.js-submit").click()
-        time.sleep(5)
 
     def open_authorization_form(self):
         self.driver.find_element_by_css_selector(
