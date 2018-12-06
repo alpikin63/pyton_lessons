@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7d3436-6daf-4675-a65a-a2bc74e73404" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/pyton_lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyton_lessons.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/login.py" afterDir="false" />
     </list>
@@ -12,15 +11,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1727278903">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="250" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="250" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
+                <marker date="1544092189228" expanded="true" signature="127:1570" ph="..." />
               </folding>
             </state>
           </provider>
@@ -46,10 +66,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -68,6 +88,12 @@
               <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
               <item name="env" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="env" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -77,10 +103,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Autotests\pyton_lessons\env\Scripts" />
       <recent name="E:\autotest\lessons\pyton_lessons\env\Scripts" />
     </key>
   </component>
@@ -132,43 +159,91 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 06m 56s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 40m 27s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 07m 08s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 40m 34s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 40m 49s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 52m 50s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 53m 22s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 12h 54m 53s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 13h 01m 32s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 13h 15m 04s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 13h 29m 46s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.06 at 13h 30m 07s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2247191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16122234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22776572" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32765958" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/login.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        <state relative-caret-position="306">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
+            <marker date="1544092189228" expanded="true" signature="127:1570" ph="..." />
           </folding>
         </state>
       </provider>
