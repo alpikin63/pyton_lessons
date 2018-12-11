@@ -8,14 +8,12 @@ class Application:
 
     def __init__(self):
         self.driver = webdriver.Chrome()
-        self.driver.implicitly_wait(60)
 
     def open_page(self, url):
         self.driver.get(url)
 
     def logout(self):
-        #WebDriverWait(self.driver, 10).until(
-            #EC.invisibility_of_element_located((By.CSS_SELECTOR, ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip")))
+        time.sleep(5)
         self.driver.find_element_by_css_selector(
             ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip").click()
         self.driver.find_element_by_link_text("Выход").click()
