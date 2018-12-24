@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae7d3436-6daf-4675-a65a-a2bc74e73404" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +26,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="1" />
-          <entry key="py" value="1146" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="2057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1146" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="2057" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -50,24 +53,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <marker date="1545631068983" expanded="true" signature="36:267" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="357">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
+                <marker date="1545660317872" expanded="true" signature="359:392" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,10 +68,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="221">
+              <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
               <folding>
-                <marker date="1545392930917" expanded="true" signature="34:39" ph="..." />
+                <marker date="1545665209493" expanded="true" signature="34:35" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,10 +85,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <marker date="1545665209589" expanded="true" signature="36:243" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,9 +124,9 @@
         <option value="$PROJECT_DIR$/aplication.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/login.py" />
-        <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/fixture/application.py" />
         <option value="$PROJECT_DIR$/test/login.py" />
       </list>
     </option>
@@ -147,6 +151,11 @@
             <path>
               <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
@@ -186,7 +195,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest in login.py">
+    <configuration name="pytest for login.test_empty_pass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pyton_lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login.test_empty_pass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for login.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pyton_lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for login.test_wronglogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pyton_lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login.test_wronglogin&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for login.test_wrongpass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pyton_lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;login.test_wrongpass&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in login.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pyton_lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,9 +271,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in login.py" />
+      <item itemvalue="Python tests.pytest for login.test_wronglogin" />
+      <item itemvalue="Python tests.pytest for login.test_wrongpass" />
+      <item itemvalue="Python tests.pytest for login.test_login" />
+      <item itemvalue="Python tests.pytest for login.test_empty_pass" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in login.py" />
+        <item itemvalue="Python tests.pytest for login.test_login" />
+        <item itemvalue="Python tests.pytest for login.test_empty_pass" />
+        <item itemvalue="Python tests.pytest for login.test_wrongpass" />
+        <item itemvalue="Python tests.pytest for login.test_wronglogin" />
       </list>
     </recent_temporary>
   </component>
@@ -222,34 +302,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 24m 51s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 16h 33m 28s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 29m 50s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 17h 05m 38s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 31m 57s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 17h 06m 57s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 33m 01s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 17h 09m 00s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 36m 00s.xml">
+    <history-entry file="pytest_for_login_test_login - 2018.12.24 at 17h 42m 28s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2018.12.24 at 17h 44m 43s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2018.12.24 at 17h 47m 42s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2018.12.24 at 18h 05m 33s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 18h 27m 55s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 43m 55s.xml">
-      <configuration name="pytest in login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 47m 12s.xml">
-      <configuration name="pytest in login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 49m 05s.xml">
-      <configuration name="pytest in login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 50m 13s.xml">
-      <configuration name="pytest in login.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.21 at 15h 22m 03s.xml">
+    <history-entry file="pytest_in_login_py - 2018.12.24 at 18h 31m 55s.xml">
       <configuration name="pytest in login.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -266,18 +346,18 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28091106" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28416485" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45878524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2505423" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2505423" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -299,45 +379,46 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="221">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding>
-            <marker date="1545392930917" expanded="true" signature="34:39" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1545665209493" expanded="true" signature="34:35" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="179">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
-            <marker date="1545631068983" expanded="true" signature="36:267" ph="..." />
+            <marker date="1545665209589" expanded="true" signature="36:243" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <marker date="1545660317872" expanded="true" signature="359:392" ph="..." />
           </folding>
         </state>
       </provider>

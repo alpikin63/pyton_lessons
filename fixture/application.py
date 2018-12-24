@@ -4,17 +4,23 @@ from fixture.session import SessionHelper
 
 class Application:
 
+    base_url = 'http://gap.aeroidea.ru/'
+
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.session = SessionHelper(self)
 
-    def open_page(self, url):
-        self.driver.get(url)
+    def open_page(self, url, http_log='loginarea', http_pass='passarea'):
+        index = url.rfind('//')
+        new_url = url[:index+2] + http_log + ':' + http_pass + '@' + url[index+2:]
+        self.driver.get(new_url)
 
-    def open_authorization_form(self):
-        self.driver.find_element_by_css_selector(
-            ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip").click()
-        self.driver.find_element_by_css_selector(".page-header__login-menu-enter.btn.btn--colored.js-modal").click()
-
-    def tearDown(self):
+    def tear_down(self):
         self.driver.quit()
+
+    def is_valid(self):
+        try:
+            self.driver.current_url()
+            return True
+        except:
+            return False
