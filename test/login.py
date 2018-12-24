@@ -48,7 +48,7 @@ def test_short_pass(app):
     app.open_authorization_form()
     app.session.authorization_interface("alpikin63@gmail.com", '1234')
     assert app.driver.find_element_by_id(
-        "authEmail-error").text == "не менее 6 символов"
+        "authPassword-error").text == "не менее 6 символов"
     assert app.driver.find_element_by_id("authPassword-error").is_displayed()
 
 
