@@ -20,27 +20,39 @@ class Application:
         self.driver.get(new_url)
 
     def wait_by_id(self, delay, id_locator):
-        wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, id_locator)))
-        return wait_elem
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, id_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + id_locator
 
     def wait_by_css(self, delay, css_locator):
-        wait_elem = WebDriverWait(self.driver, delay).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, css_locator)))
-        return wait_elem
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + css_locator
 
     def wait_by_css_enable(self, delay, css_locator):
-        wait_elem = WebDriverWait(self.driver, delay).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, css_locator)))
-        return wait_elem
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + css_locator
 
     def wait_by_name(self, delay, name_locator):
-        wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.NAME, name_locator)))
-        return wait_elem
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, name_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + name_locator
 
     def wait_by_link(self, delay, link_locator):
-        wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((
-            By.LINK_TEXT, link_locator)))
-        return wait_elem
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, link_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + link_locator
 
     def tear_down(self):
         self.driver.quit()
