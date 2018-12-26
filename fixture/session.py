@@ -1,5 +1,3 @@
-import time
-
 
 class SessionHelper:
 
@@ -31,7 +29,7 @@ class SessionHelper:
         driver.find_element_by_css_selector(self.login_modal_css).click()
 
     def logout_interface(self):
-        time.sleep(1)
+        self.app.wait_by_link(5, 'Мой аккаунт')
         driver = self.app.driver
         driver.find_element_by_css_selector(self.header_menu_open_css).click()
         driver.find_element_by_link_text("Выход").click()
