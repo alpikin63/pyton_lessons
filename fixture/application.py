@@ -1,20 +1,65 @@
 from selenium import webdriver
 from fixture.session import SessionHelper
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 
 
 class Application:
+
+    base_url = 'http://st.gap.aeroidea.ru/'
 
     def __init__(self):
         self.driver = webdriver.Chrome()
         self.session = SessionHelper(self)
 
-    def open_page(self, url):
-        self.driver.get(url)
+    def open_page(self, url, http_log='loginarea', http_pass='passarea'):
+        index = url.rfind('//')
+        new_url = url[:index+2] + http_log + ':' + http_pass + '@' + url[index+2:]
+        self.driver.get(new_url)
 
-    def open_authorization_form(self):
-        self.driver.find_element_by_css_selector(
-            ".page-header__top-row-item.page-header__top-row-item--user.tooltip.js-tooltip").click()
-        self.driver.find_element_by_css_selector(".page-header__login-menu-enter.btn.btn--colored.js-modal").click()
+    def wait_by_id(self, delay, id_locator):
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, id_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + id_locator
 
-    def tearDown(self):
+    def wait_by_css(self, delay, css_locator):
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + css_locator
+
+    def wait_by_css_enable(self, delay, css_locator):
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + css_locator
+
+    def wait_by_name(self, delay, name_locator):
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, name_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + name_locator
+
+    def wait_by_link(self, delay, link_locator):
+        try:
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, link_locator)))
+            return wait_elem
+        except TimeoutException:
+            assert False, 'Не дождался элемента: ' + link_locator
+
+    def tear_down(self):
         self.driver.quit()
+
+    def is_valid(self):
+        try:
+            self.driver.current_url
+            return True
+        except:
+            return False
