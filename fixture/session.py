@@ -28,6 +28,11 @@ class SessionHelper:
         driver.find_element_by_id(self.pass_id).send_keys(password)
         driver.find_element_by_css_selector(self.login_modal_css).click()
 
+    def open_fogotpass_form(self):
+        driver = self.app.driver
+        self.open_authorization_form()
+        driver.find_element_by_id('ss').click()
+
     def logout_interface(self):
         self.app.wait_by_link(5, 'Мой аккаунт')
         driver = self.app.driver

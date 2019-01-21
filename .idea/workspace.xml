@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ae7d3436-6daf-4675-a65a-a2bc74e73404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,34 +16,38 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="2495" />
+          <entry key="py" value="2991" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2495" />
+          <entry key="Python" value="2991" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="8" />
+          <entry key="json" value="2" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -52,38 +55,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
+        <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
-                <marker date="1545660317872" expanded="true" signature="359:392" ph="..." />
+                <marker date="1547198657839" expanded="true" signature="21:22" ph="..." />
+                <marker date="1547198657839" expanded="true" signature="1274:1400" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/session.py">
+        <entry file="file://$PROJECT_DIR$/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="16" selection-end-line="20" />
               <folding>
-                <marker date="1545815039421" expanded="true" signature="21:22" ph="..." />
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <marker date="1545816536805" expanded="true" signature="359:392" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
+        <entry file="file://$PROJECT_DIR$/fixture/mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/token.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/credentials.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/imaplib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11917">
+              <caret line="703" column="8" selection-start-line="703" selection-start-column="8" selection-end-line="703" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/forgot_password.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="37" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <marker date="1545816137909" expanded="true" signature="763:1830" ph="..." />
+                <marker date="1546070763372" expanded="true" signature="26:31" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,6 +146,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/login.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             <state relative-caret-position="205">
@@ -104,8 +159,12 @@
             <state relative-caret-position="85">
               <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
 >>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+=======
+            <state relative-caret-position="1190">
+              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+>>>>>>> 013db1031991e1db9e10d48a107b78f467e91d81
               <folding>
-                <marker date="1545815867764" expanded="true" signature="25:289" ph="..." />
+                <marker date="1545816311782" expanded="true" signature="25:231" ph="..." />
               </folding>
             </state>
           </provider>
@@ -129,10 +188,14 @@
         <option value="$PROJECT_DIR$/aplication.py" />
         <option value="$PROJECT_DIR$/application.py" />
         <option value="$PROJECT_DIR$/login.py" />
-        <option value="$PROJECT_DIR$/conftest.py" />
-        <option value="$PROJECT_DIR$/fixture/session.py" />
-        <option value="$PROJECT_DIR$/test/login.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
+        <option value="$PROJECT_DIR$/test/login.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/test/forgot_password.py" />
+        <option value="$PROJECT_DIR$/fixture/session.py" />
+        <option value="$PROJECT_DIR$/fixture/credentials.json" />
+        <option value="$PROJECT_DIR$/fixture/token.json" />
+        <option value="$PROJECT_DIR$/fixture/mail.py" />
       </list>
     </option>
   </component>
@@ -175,11 +238,6 @@
               <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
               <item name="fixture" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -192,13 +250,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Autotests\pyton_lessons\test" />
-      <recent name="D:\Autotests\pyton_lessons\fixture" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Autotests\pyton_lessons\fixture" />
       <recent name="D:\Autotests\pyton_lessons\env\Scripts" />
       <recent name="E:\autotest\lessons\pyton_lessons\env\Scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Autotests\pyton_lessons" />
+      <recent name="D:\Autotests\pyton_lessons\test" />
+      <recent name="D:\Autotests\pyton_lessons\fixture" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,20 +273,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for login.test_login">
-    <configuration name="pytest for login.test_empty_pass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mail">
+    <configuration name="mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyton_lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login.test_empty_pass&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fixture/mail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for login.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -294,15 +360,15 @@
       <item itemvalue="Python tests.pytest for login.test_wronglogin" />
       <item itemvalue="Python tests.pytest for login.test_wrongpass" />
       <item itemvalue="Python tests.pytest for login.test_login" />
-      <item itemvalue="Python tests.pytest for login.test_empty_pass" />
+      <item itemvalue="Python.mail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mail" />
         <item itemvalue="Python tests.pytest for login.test_login" />
         <item itemvalue="Python tests.pytest in login.py" />
         <item itemvalue="Python tests.pytest for login.test_wrongpass" />
         <item itemvalue="Python tests.pytest for login.test_wronglogin" />
-        <item itemvalue="Python tests.pytest for login.test_empty_pass" />
       </list>
     </recent_temporary>
   </component>
@@ -320,15 +386,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 11h 58m 42s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 00m 25s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 01m 58s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 02m 20s.xml">
       <configuration name="pytest for login.test_login" configurationId="tests" />
     </history-entry>
@@ -368,6 +425,15 @@
     <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 21m 20s.xml">
       <configuration name="pytest for login.test_login" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 22m 30s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 24m 42s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_login_test_login - 2019.01.09 at 17h 45m 29s.xml">
+      <configuration name="pytest for login.test_login" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,7 +464,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
 =======
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47505423" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39587852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45878524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,36 +503,44 @@
     <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
-            <marker date="1545660317872" expanded="true" signature="359:392" ph="..." />
+            <marker date="1545816536805" expanded="true" signature="359:392" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/imaplib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="41" lean-forward="true" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="11917">
+          <caret line="703" column="8" selection-start-line="703" selection-start-column="8" selection-end-line="703" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/forgot_password.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="37" />
           <folding>
-            <marker date="1545815039421" expanded="true" signature="21:22" ph="..." />
+            <marker date="1546070763372" expanded="true" signature="26:31" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        <state relative-caret-position="1190">
+          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
           <folding>
-            <marker date="1545815867764" expanded="true" signature="25:289" ph="..." />
+            <marker date="1545816311782" expanded="true" signature="25:231" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="205">
@@ -479,9 +553,47 @@
         <state relative-caret-position="238">
           <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
 >>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+=======
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="16" selection-end-line="20" />
+>>>>>>> 013db1031991e1db9e10d48a107b78f467e91d81
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1545816137909" expanded="true" signature="763:1830" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <marker date="1547198657839" expanded="true" signature="21:22" ph="..." />
+            <marker date="1547198657839" expanded="true" signature="1274:1400" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
