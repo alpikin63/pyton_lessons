@@ -9,6 +9,7 @@ from apiclient import errors
 class Gmail:
 
     SCOPES = 'https://www.googleapis.com/auth/gmail.modify'
+    SCOPES_FILTER = 'https://www.googleapis.com/auth/gmail.settings.basic'
 
     def __init__(self):
         """Shows basic usage of the Gmail API.
@@ -24,6 +25,15 @@ class Gmail:
             creds = tools.run_flow(flow, store)
         self.service = build('gmail', 'v1', http=creds.authorize(Http()))
 
+    def auth_settings(self):
+        store = file.Storage('../token_auth.json')
+        creds = store.get()
+        if not creds or creds.invalid:
+            flow = client.flow_from_clientsecrets('../credentials_auth.json', self.SCOPES_FILTER)
+            creds = tools.run_flow(flow, store)
+        self.service = build('gmail', 'v1', http=creds.authorize(Http()))
+        print(self.service.users().settings().filters().list(userId='me').execute())
+
     def get_labels(self):
 
         # Call the Gmail API
@@ -36,28 +46,14 @@ class Gmail:
 
             return labels
 
-    """Create and add label to user's account.
-    """
-
     def createLabel(self, label_name=''):
 
         label_object = self.MakeLabel(label_name=label_name)
-
-        print(label_object)
         label = self.service.users().labels().create(userId='me', body=label_object).execute()
         return label
 
     def MakeLabel(self, label_name, mlv='show', llv='labelShow'):
-        """Create Label object.
-
-        Args:
-          label_name: The name of the Label.
-          mlv: Message list visibility, show/hide.
-          llv: Label list visibility, labelShow/labelHide.
-
-        Returns:
-          Created Label.
-        """
+        """Create Label object."""
         label = {'messageListVisibility': mlv,
                  'name': label_name,
                  'labelListVisibility': llv}
@@ -72,11 +68,27 @@ class Gmail:
                 lable_id = label['id']
         self.service.users().labels().delete(userId='me', id=lable_id).execute()
 
+    def makeFilter(self, sender, label):
+        filter = {
+          "id": 'test',
+          "criteria": {
+            "from": sender,
+          },
+          "action": {
+            "addLabelIds": [
+                label
+            ]
+          }
+        }
+        return filter
+
+
 
 
 a = Gmail()
+a.auth_settings()
 #a.createLabel(label_name='test1234')
-a.deletelabel('test1234')
+#a.deletelabel('test1234')
 
 
 
