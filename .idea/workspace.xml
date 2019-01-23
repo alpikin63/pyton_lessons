@@ -67,6 +67,75 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/token.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/credentials.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/imaplib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11917">
+              <caret line="703" column="8" selection-start-line="703" selection-start-column="8" selection-end-line="703" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/forgot_password.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="37" />
+              <folding>
+                <marker date="1546070763372" expanded="true" signature="26:31" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="205">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+=======
+            <state relative-caret-position="119">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+>>>>>>> 455963efd59046f0284093072baaa6220adbb237
+=======
+            <state relative-caret-position="85">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+>>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+=======
+            <state relative-caret-position="1190">
+              <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+>>>>>>> 013db1031991e1db9e10d48a107b78f467e91d81
+              <folding>
+                <marker date="1545816311782" expanded="true" signature="25:231" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -97,14 +166,31 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+=======
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-1928" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="-1928" />
+=======
+    <option name="x" value="-8" />
+>>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+>>>>>>> 455963efd59046f0284093072baaa6220adbb237
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -279,8 +365,31 @@
     <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 37m 10s.xml">
       <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 38m 05s.xml">
       <configuration name="pytest in spam.py" configurationId="tests" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 07m 56s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 08m 25s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 08m 45s.xml">
+      <configuration name="pytest in login.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+=======
+    <history-entry file="pytest_in_login_py - 2018.12.21 at 14h 36m 00s.xml">
+=======
+    <history-entry file="pytest_in_login_py - 2018.12.26 at 12h 03m 21s.xml">
+>>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+      <configuration name="pytest in login.py" configurationId="tests" />
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     </history-entry>
     <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 38m 54s.xml">
       <configuration name="pytest in spam.py" configurationId="tests" />
@@ -319,11 +428,22 @@
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
+>>>>>>> 455963efd59046f0284093072baaa6220adbb237
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46175638" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+=======
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.39587852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45878524" />
@@ -331,7 +451,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32907802" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2505423" />
+>>>>>>> 455963efd59046f0284093072baaa6220adbb237
+=======
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.2548807" />
+>>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -400,8 +525,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/common/action_chains.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="291">
           <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="205">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+=======
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 455963efd59046f0284093072baaa6220adbb237
+=======
+        <state relative-caret-position="238">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+>>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+=======
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="16" selection-end-line="20" />
+>>>>>>> 013db1031991e1db9e10d48a107b78f467e91d81
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
         </state>
       </provider>
     </entry>
