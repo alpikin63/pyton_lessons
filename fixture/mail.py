@@ -43,7 +43,7 @@ class Gmail:
         if not labels:
             print('No labels found.')
         else:
-
+            print(labels)
             return labels
 
     def createLabel(self, label_name=''):
@@ -64,7 +64,6 @@ class Gmail:
         lable_id = ''
         for label in label_list:
             if label['name'] == lable_name:
-                print(label['id'])
                 lable_id = label['id']
         self.service.users().labels().delete(userId='me', id=lable_id).execute()
 
@@ -82,11 +81,17 @@ class Gmail:
         }
         return filter
 
+    def createFilter(self, sender, labdel):
+        filterobj = self.makeFilter(sender, labdel)
+        filter = self.service.users().settings().filters().create(userId='me', body=filterobj).execute()
+        return filter
 
 
 
 a = Gmail()
+#a.get_labels()
 a.auth_settings()
+#a.createFilter("pikin@aeroidea.ru", 'Label_2')
 #a.createLabel(label_name='test1234')
 #a.deletelabel('test1234')
 

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ae7d3436-6daf-4675-a65a-a2bc74e73404" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,88 +14,52 @@
     <session id="-1727278903">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="py" value="2991" />
+          <entry key="py" value="3282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="2991" />
+          <entry key="Python" value="3282" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
           <entry key="json" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-              <folding>
-                <marker date="1547198657839" expanded="true" signature="21:22" ph="..." />
-                <marker date="1547198657839" expanded="true" signature="1274:1400" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixture/application.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="16" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-                <marker date="1545816536805" expanded="true" signature="359:392" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/mail.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -104,6 +67,8 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/token.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,6 +135,7 @@
           </provider>
         </entry>
       </file>
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -196,6 +162,7 @@
         <option value="$PROJECT_DIR$/fixture/credentials.json" />
         <option value="$PROJECT_DIR$/fixture/token.json" />
         <option value="$PROJECT_DIR$/fixture/mail.py" />
+        <option value="$PROJECT_DIR$/test/spam.py" />
       </list>
     </option>
   </component>
@@ -211,8 +178,12 @@
     <option name="x" value="-1928" />
 =======
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
+    <option name="x" value="-1928" />
+=======
     <option name="x" value="-8" />
 >>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -226,6 +197,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,11 +210,15 @@
               <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
               <item name="fixture" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pyton_lessons" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyton_lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mail">
+  <component name="RunManager" selected="Python tests.pytest in spam.py">
     <configuration name="mail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pyton_lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -310,21 +286,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for login.test_wronglogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="pyton_lessons" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login.test_wronglogin&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest for login.test_wrongpass" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pyton_lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -355,20 +316,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in spam.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pyton_lessons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/spam.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python tests.pytest in login.py" />
-      <item itemvalue="Python tests.pytest for login.test_wronglogin" />
       <item itemvalue="Python tests.pytest for login.test_wrongpass" />
       <item itemvalue="Python tests.pytest for login.test_login" />
       <item itemvalue="Python.mail" />
+      <item itemvalue="Python tests.pytest in spam.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in spam.py" />
         <item itemvalue="Python.mail" />
         <item itemvalue="Python tests.pytest for login.test_login" />
         <item itemvalue="Python tests.pytest in login.py" />
         <item itemvalue="Python tests.pytest for login.test_wrongpass" />
-        <item itemvalue="Python tests.pytest for login.test_wronglogin" />
       </list>
     </recent_temporary>
   </component>
@@ -386,9 +362,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 02m 20s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 37m 10s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
+<<<<<<< HEAD
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 38m 05s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
     <history-entry file="pytest_in_login_py - 2018.12.05 at 23h 07m 56s.xml">
@@ -409,30 +389,31 @@
     <history-entry file="pytest_in_login_py - 2018.12.26 at 12h 03m 21s.xml">
 >>>>>>> 0b409b0abbae50febbe3ea7e367e861d288a08cc
       <configuration name="pytest in login.py" configurationId="tests" />
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
     </history-entry>
-    <history-entry file="pytest_in_login_py - 2018.12.26 at 12h 04m 28s.xml">
-      <configuration name="pytest in login.py" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 38m 54s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 17m 41s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 40m 04s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 18m 03s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 48m 59s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 20m 42s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.16 at 16h 49m 29s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 21m 20s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.17 at 09h 09m 50s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 22m 30s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.17 at 09h 42m 50s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2018.12.26 at 12h 24m 42s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.17 at 10h 12m 55s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_login_test_login - 2019.01.09 at 17h 45m 29s.xml">
-      <configuration name="pytest for login.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_spam_py - 2019.01.17 at 10h 13m 47s.xml">
+      <configuration name="pytest in spam.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -445,11 +426,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
 >>>>>>> 455963efd59046f0284093072baaa6220adbb237
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12012645" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -500,14 +481,24 @@
     <entry file="file://$PROJECT_DIR$/model/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
+    <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <marker date="1545816536805" expanded="true" signature="359:392" ph="..." />
-          </folding>
+        <state relative-caret-position="510">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/token.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credentials.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -522,24 +513,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="37" />
-          <folding>
-            <marker date="1546070763372" expanded="true" signature="26:31" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/login.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/remote/webelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="50" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
-          <folding>
-            <marker date="1545816311782" expanded="true" signature="25:231" ph="..." />
-          </folding>
+        <state relative-caret-position="707">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/selenium/webdriver/common/action_chains.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="291">
+          <caret line="246" column="8" selection-start-line="246" selection-start-column="8" selection-end-line="246" selection-end-column="8" />
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -560,38 +549,36 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+>>>>>>> e52040208d36182ff1aba8a3f98b3234baf158c0
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/session.py">
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-          <folding>
-            <marker date="1547198657839" expanded="true" signature="21:22" ph="..." />
-            <marker date="1547198657839" expanded="true" signature="1274:1400" ph="..." />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/token.json">
+    <entry file="file://$PROJECT_DIR$/test/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        <state relative-caret-position="-544">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credentials.json">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/spam.py" />
     <entry file="file://$PROJECT_DIR$/fixture/mail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
