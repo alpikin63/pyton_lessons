@@ -8,7 +8,7 @@ from selenium.common.exceptions import TimeoutException
 
 class Application:
 
-    base_url = 'http://st.gap.aeroidea.ru/'
+    base_url = 'https://gap.aeroidea.ru/'
 
     def __init__(self):
         self.driver = webdriver.Chrome()
@@ -28,28 +28,31 @@ class Application:
 
     def wait_by_css(self, delay, css_locator):
         try:
-            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((
+                By.CSS_SELECTOR, css_locator)))
             return wait_elem
         except TimeoutException:
             assert False, 'Не дождался элемента: ' + css_locator
 
     def wait_by_css_enable(self, delay, css_locator):
         try:
-            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, css_locator)))
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((
+                By.CSS_SELECTOR, css_locator)))
             return wait_elem
         except TimeoutException:
             assert False, 'Не дождался элемента: ' + css_locator
 
     def wait_by_name(self, delay, name_locator):
         try:
-            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, name_locator)))
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.NAME, name_locator)))
             return wait_elem
         except TimeoutException:
             assert False, 'Не дождался элемента: ' + name_locator
 
     def wait_by_link(self, delay, link_locator):
         try:
-            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.ID, link_locator)))
+            wait_elem = WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((
+                By.LINK_TEXT, link_locator)))
             return wait_elem
         except TimeoutException:
             assert False, 'Не дождался элемента: ' + link_locator

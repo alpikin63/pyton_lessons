@@ -1,0 +1,102 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1549050246401" stop="1549050265066">
+  <name>test</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1549050246401" status="passed" stop="1549050254484">
+      <name>login.test_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050254488" status="passed" stop="1549050255953">
+      <name>login.test_empty_pass</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050255954" status="passed" stop="1549050257298">
+      <name>login.test_empty_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050257299" status="passed" stop="1549050258588">
+      <name>login.test_empty_login_pass</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050258589" status="passed" stop="1549050259860">
+      <name>login.test_incorrect_login</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050259861" status="passed" stop="1549050261214">
+      <name>login.test_short_pass</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050261215" status="passed" stop="1549050263217">
+      <name>login.test_wronglogin</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1549050263218" status="passed" stop="1549050265066">
+      <name>login.test_wrongpass</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11844-MainThread"/>
+        <label name="host" value="DESKTOP-GMLT5VV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
